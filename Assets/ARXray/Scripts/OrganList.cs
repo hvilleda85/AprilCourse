@@ -13,6 +13,7 @@ public class OrganList : MonoBehaviour
     public Image rightLungIcon;
     public Image leftLungIcon;
     public Image bladderIcon;
+    public Image pancreasIcon;
 
     public void OnBrainFound()
     {
@@ -52,5 +53,10 @@ public class OrganList : MonoBehaviour
     public void OnBladderFound()
     {
         bladderIcon.color = Color.white;
+    }
+
+    public void OnPancreasFound()
+    {
+        pancreasIcon.color = Color.white;
     }
 }
